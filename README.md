@@ -26,4 +26,7 @@
 <h4> For all the applications, the README are provided in their respective directories.<h4>
 
 
+In case of any issues, feel free to reach out at <i>omais.shafi@gmail.com</i>
+
+
 
