@@ -6,7 +6,7 @@
 
 <h2> Installing a docker image with jetpack.<h3>
 
-  <b> <i> sudo docker pull nvcr.io/nvidia/l4t-jetpack:r35.1.0 </i> <b> ---> This will download the docker containing all the necessary files needed to run TensorRT, cuda programs.
+ <i> sudo docker pull nvcr.io/nvidia/l4t-jetpack:r35.1.0 </i> ---> This will download the docker containing all the necessary files needed to run TensorRT, cuda programs.
 
 <h4> After the installation, you can do testing using these commands<h4>
 
