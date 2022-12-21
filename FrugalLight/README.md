@@ -1,3 +1,13 @@
+Steps:
+1. FrugalLight Training uses a traffic simulator called as CityFlow. So we first need to setup the CityFlow simulator.
+2. ``git clone https://github.com/cityflow-project/CityFlow.git``
+3. Go inside the City Flow directory, `` cd CityFlow ``
+4. ``python3 setup.py build``  --> This will generate the .so file. Copy this .so file to the FrugalLight directory.
+5. Or after building, run ``python3 setup.py install`` ---> In this case, city flow will be installed and you do not need to copy the .so file.
+6. Then go to FrugalLight directory, run ``python3 code/runexp.py``
+
+<b>NOTE:</b> You can go down to know more above the different files of FrugalLight code.
+
 # FrugalLight
 
 FrugalLight is a reinforcement learning agent for AI based separate and independent (without network communication) 
